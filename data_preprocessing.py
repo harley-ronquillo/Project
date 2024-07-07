@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 import os
 
-def preprocess_data(input_path, output_path, sample_size=10000):
+def preprocess_data(input_path, output_path, sample_size=98600):
     # Load the dataset
     data = pd.read_csv(input_path)
     
